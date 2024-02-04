@@ -1,12 +1,13 @@
 import Image from "next/image";
 import { CarCard,Hero, SearchBar, CustomFilter } from "@/components";
 import { fetchCars } from "@/utils";
-import { SearchParamsContext } from "next/dist/shared/lib/hooks-client-context.shared-runtime";
+import { fuels, yearsOfProduction } from "@/constants";
+
 
 
 export default async function Home({searchParams}) {
   const allCars = await fetchCars({
-    manufacturer: searchParams.manufacturer,
+    manufacturer: searchParams.manufacturer || '',
     year: searchParams.year || 2002,
     fuel: searchParams.fuel || '',
     limit: searchParams.limit|| 10,
@@ -30,8 +31,8 @@ export default async function Home({searchParams}) {
         <div className="home__filters">
           <SearchBar />
           <div className="home__filter-container">
-            <CustomFilter title='fuel'/>
-            <CustomFilter title='year'/>
+            <CustomFilter title='fuel' options={fuels}/>
+            <CustomFilter title='year' options={yearsOfProduction}/>
         </div>
         </div>
         {!isDataEmpty ? (

@@ -10,9 +10,11 @@ const Hero = () => {
     <div className="hero">
       <div className="flex-1 pt-36 padding-x">
         <h1 className="hero__title">
-          Find, book, or rent a car -- quickly and easily!
+        Anytime you need a car,
         </h1>
-        <p className="hero__subtitle">Streamlilne your car rental experience with our mobile app</p>
+        <p className="hero__subtitle">24 hours a day
+Even in the middle of the night or on weekends, you can use your smartphone
+Regardless of time Move with socar.</p>
 
       <CustomButton 
           title="Explore Cars"
