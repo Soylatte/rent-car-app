@@ -1,4 +1,4 @@
-import Image from "next/image";
+import './globals.css'
 import { CarCard,Hero, SearchBar, CustomFilter , ShowMore} from "@/components";
 import { fetchCars } from "@/utils";
 import { fuels, yearsOfProduction } from "@/constants";
@@ -16,6 +16,7 @@ export default async function Home({searchParams}) {
   const isDataEmpty = !Array.isArray(allCars) || allCars.length < 1  || !allCars;
 
   return (
+  
     <main className="overflow-hidden">
       <Hero />
 
@@ -42,7 +43,7 @@ export default async function Home({searchParams}) {
               <CarCard car={car} />
               ))}
             </div>
-            <ShowMore  pageNumber = {(searchParams.pageNumber || 10)/10}
+            <ShowMore  pageNumber = {(searchParams.limit || 10)/10}
             isNext={(searchParams.limit || 10) > allCars.length }
             />
           </section>
@@ -55,5 +56,6 @@ export default async function Home({searchParams}) {
         )}
       </div>
     </main>
+
   );
 }

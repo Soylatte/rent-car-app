@@ -3,6 +3,7 @@ import Image from "next/image"
 
 import CustomButton from './CustomButton'
 
+
 const Navbar = () => {
   return (
     <header className="w-full absolute z-10">
@@ -11,9 +12,12 @@ const Navbar = () => {
             <Link href='/' className="flex justify-center items-center">
             <h1 className="object-contain text-primary-blue font-bold">socar</h1>
             </Link>
+
+            <Link href='/signin'>
             <CustomButton title='Sign In'
             btnType="button"
-            containerStyles="text-primary-blue rounded-full bg-white min-w-[130px]" />
+            containerStyles="text-primary-blue rounded-full bg-white min-w-[130px]"
+             /></Link>
 
         </nav>
     </header>
