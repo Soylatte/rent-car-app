@@ -16,5 +16,8 @@ I had few errors widh TypeScript
 <img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?style=for-the-badge&logo=Tailwind CSS&logoColor=white"/>
 - Back-end
 <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=Next.js&logoColor=white">
+- Tools and Deployment
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
+<img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" >
 
 <img width="932" alt="socar preview" src="https://github.com/Soylatte/rent-car-app/assets/133989317/726e5281-4bab-49e7-bd12-56ceb7c934f6" />
