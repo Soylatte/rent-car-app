@@ -10,7 +10,7 @@ I had few errors widh TypeScript
 1. I name one of components file ts not tsx
 2. when I clicked 'show more' button didn't show more because I didn't add functions
 
-## 📢 [쏘카 배포 링크(https://rent-car-app-flame.vercel.app/)]
+## 📢 [쏘카 배포 링크](https://rent-car-app-flame.vercel.app/)
 
 ## 🚧 Used Stacks 사용된 기술
 -  Front-end
