@@ -22,6 +22,8 @@ I had few errors widh TypeScript
 - Tools and Deployment
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
 <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" >
+
+
 ## Implemented features 구현된 기능
 - Router를 사용하여 부드럽게 렌더링한 상단 Using a router to smoothly render the top portion.
 - Image API 와 자동차 정보 API 를 Next.js 의 fetch 기능을 이용하여 데이터 사용 Using Next.js's fetch functionality to utilize data from both an Image API and a Car Information API.
